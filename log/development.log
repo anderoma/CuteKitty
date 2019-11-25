@@ -525,3 +525,127 @@ puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
 puma (3.12.1) lib/puma/server.rb:474:in `process_client'
 puma (3.12.1) lib/puma/server.rb:334:in `block in run'
 puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mItem Load (13.4ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (12.6ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "toad"], ["description", "Aspernatur enim dolore. Natus praesentium doloremque. Optio dolorum labore. Quos delectus molestiae. Hic quidem molestias. Voluptates ea accusamus. Earum omnis nobis. Optio cupiditate minima. Omnis aliquam possimus. Omnis ducimus dolore. Suscipit minima q."], ["price", "38.16"], ["image_url", "image3"], ["created_at", "2019-11-25 16:24:20.913553"], ["updated_at", "2019-11-25 16:24:20.913553"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (5.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.3ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "reindeer"], ["description", "Minima porro voluptatum. Quod quae soluta. Aut minima nihil. Et ab recusandae. Earum quisquam neque. Illum amet cupiditate. At dolorum est. Et qui ipsum. Repellat sed et. Quia dignissimos voluptatem. Maiores ea minima. Magni quas dolor. Ut nihil eum. Dele."], ["price", "73.04"], ["image_url", "image4"], ["created_at", "2019-11-25 16:24:20.935456"], ["updated_at", "2019-11-25 16:24:20.935456"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "whale"], ["description", "Inventore reprehenderit ut. Architecto accusantium rerum. Voluptatem mollitia ratione. Veritatis occaecati aperiam. Expedita voluptatum nisi. Et quisquam beatae. Et laboriosam ad. Commodi doloribus adipisci. Esse et quasi. Suscipit distinctio quaerat. Cor."], ["price", "82.13"], ["image_url", "image2"], ["created_at", "2019-11-25 16:24:20.938176"], ["updated_at", "2019-11-25 16:24:20.938176"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "dolphin"], ["description", "Iste omnis corporis. Eos architecto aliquid. Nisi ducimus aut. Excepturi omnis iusto. Qui est aliquid. Et occaecati vel. Cum numquam exercitationem. Fugit suscipit incidunt. Minus molestiae quo. Perferendis aut ut. Unde rerum ut. Consequatur voluptatem ve."], ["price", "88.78"], ["image_url", "image2"], ["created_at", "2019-11-25 16:24:20.940523"], ["updated_at", "2019-11-25 16:24:20.940523"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "antelope"], ["description", "Repellendus aut et. Ipsa qui qui. Tempore consequatur nesciunt. Dolorem ut praesentium. Nobis fugiat quod. Error nesciunt dolorem. Eum error labore. Facilis magnam libero. Atque et minus. Ipsum dicta doloribus. Praesentium eaque fugiat. Quam qui modi. Off."], ["price", "97.65"], ["image_url", "image4"], ["created_at", "2019-11-25 16:24:20.943009"], ["updated_at", "2019-11-25 16:24:20.943009"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "goat"], ["description", "Eaque nam omnis. Aut laudantium reiciendis. Explicabo molestias iste. Mollitia modi velit. In voluptatum sunt. Aut voluptas voluptates. Nihil et modi. Laborum ut natus. Dolorem explicabo eos. Reprehenderit asperiores quo. Cupiditate at qui. Error dolorum ."], ["price", "85.87"], ["image_url", "image2"], ["created_at", "2019-11-25 16:24:20.945359"], ["updated_at", "2019-11-25 16:24:20.945359"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "cattle"], ["description", "Accusamus ipsam non. Nobis possimus qui. Sequi inventore soluta. Reprehenderit dolores consequuntur. Dolore non id. Ratione ea voluptatem. Reiciendis debitis maxime. Quia accusantium ut. A voluptatem aut. Sunt quo sed. Qui vel tempore. Sequi vel consectet."], ["price", "10.93"], ["image_url", "image2"], ["created_at", "2019-11-25 16:24:20.947492"], ["updated_at", "2019-11-25 16:24:20.947492"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "trout"], ["description", "Porro rerum tempora. Velit alias cupiditate. Dolores commodi dolorem. Est laboriosam officia. Reprehenderit quis tempore. Excepturi molestiae eos. Et consequatur numquam. Non beatae aut. Dolorem nisi ab. Id sed aut. Dolor occaecati quo. Voluptates veniam ."], ["price", "28.96"], ["image_url", "image4"], ["created_at", "2019-11-25 16:24:20.949816"], ["updated_at", "2019-11-25 16:24:20.949816"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "eel"], ["description", "Enim dolorem reprehenderit. Vel voluptatem labore. Dolorem molestiae laboriosam. Est maxime sit. Totam aut molestiae. Ullam nihil consequuntur. Ipsum quibusdam dolor. Quis ullam suscipit. Quia sequi non. Saepe et sapiente. Necessitatibus ducimus voluptate."], ["price", "23.56"], ["image_url", "image4"], ["created_at", "2019-11-25 16:24:20.952094"], ["updated_at", "2019-11-25 16:24:20.952094"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "hedgehog"], ["description", "Doloribus explicabo consequatur. At ut similique. Animi mollitia magni. Quaerat voluptas veniam. Quam iusto eos. Neque dolorem dolor. Aperiam facere reprehenderit. Consequatur est id. Aspernatur quo sequi. Maiores et optio. Veritatis magni ut. Nesciunt ei."], ["price", "28.68"], ["image_url", "image2"], ["created_at", "2019-11-25 16:24:20.954213"], ["updated_at", "2019-11-25 16:24:20.954213"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "hedgehog"], ["description", "Deleniti aut et. Voluptatem aspernatur harum. Quo enim qui. Aliquid odio modi. Nihil dolore occaecati. Culpa voluptas est. Rerum atque non. Iusto atque nihil. Cupiditate dolor nesciunt. Ut perspiciatis recusandae. Ea quo sit. Recusandae ducimus et. In off."], ["price", "69.91"], ["image_url", "image3"], ["created_at", "2019-11-25 16:24:20.956937"], ["updated_at", "2019-11-25 16:24:20.956937"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "donkey"], ["description", "Voluptatem qui quis. Dolorem libero sapiente. Id non occaecati. Fuga praesentium sit. Id doloribus veniam. Minus saepe consectetur. Quaerat ut consequatur. Aperiam dolorem libero. Ut ut quam. Exercitationem sint repellendus. Iste possimus dolorem. Aut sim."], ["price", "54.64"], ["image_url", "image2"], ["created_at", "2019-11-25 16:24:20.959494"], ["updated_at", "2019-11-25 16:24:20.959494"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "porpoise"], ["description", "Velit eaque aliquam. Quisquam iure minus. Fugit veniam adipisci. Explicabo odit facere. Occaecati qui qui. Et nemo delectus. Debitis voluptatibus praesentium. Praesentium quibusdam atque. Saepe non distinctio. Repellendus sint sapiente. Quae sed veritatis."], ["price", "47.13"], ["image_url", "image3"], ["created_at", "2019-11-25 16:24:20.961851"], ["updated_at", "2019-11-25 16:24:20.961851"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "termite"], ["description", "Sed debitis inventore. Ducimus consequatur et. Nobis quia ea. Adipisci similique quae. Consequatur inventore ut. Et unde rem. Voluptatum occaecati alias. Reprehenderit rerum quo. Quis est ipsum. Necessitatibus dolore magni. Nostrum veniam non. Velit quod ."], ["price", "76.03"], ["image_url", "image3"], ["created_at", "2019-11-25 16:24:20.963945"], ["updated_at", "2019-11-25 16:24:20.963945"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "weasel"], ["description", "Consequatur mollitia voluptate. Sit facilis dolor. Quaerat asperiores accusantium. At dignissimos inventore. Quo magnam et. Ipsam rerum unde. Laboriosam molestiae earum. Eos aut dolorem. Praesentium exercitationem sed. Libero quia culpa. Dolores et eum. R."], ["price", "39.93"], ["image_url", "image1"], ["created_at", "2019-11-25 16:24:20.965912"], ["updated_at", "2019-11-25 16:24:20.965912"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "crow"], ["description", "Eveniet et neque. Unde fugit veniam. Aut voluptatum consequatur. Doloribus voluptatibus vero. Ipsam tempore ea. Ea porro distinctio. Qui iusto et. Est expedita quis. Sunt perferendis magnam. Qui dolorem illo. Explicabo voluptate exercitationem. Esse cumqu."], ["price", "64.33"], ["image_url", "image4"], ["created_at", "2019-11-25 16:24:20.967833"], ["updated_at", "2019-11-25 16:24:20.967833"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "louse"], ["description", "At illo enim. Aut numquam aliquam. Doloribus quis corporis. Expedita vero quam. Sequi aut consequatur. Labore ipsam vitae. Placeat sunt quae. Molestiae magni accusantium. Repellendus est commodi. Laboriosam deleniti iusto. Quae aut rerum. Libero commodi d."], ["price", "95.22"], ["image_url", "image2"], ["created_at", "2019-11-25 16:24:20.970117"], ["updated_at", "2019-11-25 16:24:20.970117"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "tortoise"], ["description", "Quod asperiores cum. Officia libero totam. Voluptatum aspernatur quaerat. Quia laudantium aut. Et aut molestiae. Quos est enim. Velit amet commodi. Error porro illo. Quia porro reprehenderit. Est autem quisquam. Perspiciatis unde voluptas. Aut non quo. Au."], ["price", "10.41"], ["image_url", "image1"], ["created_at", "2019-11-25 16:24:20.972732"], ["updated_at", "2019-11-25 16:24:20.972732"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "fly"], ["description", "Eum consectetur inventore. Quasi dolorum qui. Neque quae et. Ea ut eveniet. Eaque maiores possimus. Autem id aspernatur. Vero quam ullam. Quisquam quis voluptatem. Molestiae quasi pariatur. Repellat enim eos. Voluptas qui explicabo. Voluptas rerum earum. ."], ["price", "19.02"], ["image_url", "image3"], ["created_at", "2019-11-25 16:24:20.975142"], ["updated_at", "2019-11-25 16:24:20.975142"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mItem Create (0.2ms)[0m  [1m[32mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "marten"], ["description", "Est sint exercitationem. Quia et accusantium. Ex sapiente enim. Et nemo quos. Ex non odit. Illo cumque recusandae. Deleniti consequatur dolorem. Eos cum totam. Repudiandae aut consequatur. Sed assumenda tempora. Quod libero necessitatibus. Aut voluptas et."], ["price", "34.47"], ["image_url", "image3"], ["created_at", "2019-11-25 16:24:20.977502"], ["updated_at", "2019-11-25 16:24:20.977502"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
