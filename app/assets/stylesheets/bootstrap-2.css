@@ -55,6 +55,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	height: 100%;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -70,6 +71,10 @@ body {
   color: #888;
   text-align: left;
   background-color: #fff;
+	padding: 0px;
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 5em;
 }
 
 [tabindex="-1"]:focus {
@@ -10810,14 +10815,19 @@ legend {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  height: 100px;
   padding: 0px 50px;
   color: antiquewhite;
   opacity: 0.9;
-  bottom: 0; 
-	left: 0px; right: 0px;
+	bottom: 0px;
+	margin-bottom: 0px;
 	position: absolute;
+	left: 0; 
+	right: 0;
+	height: 60px;
+
 }
+
 .footer-links {
   display: flex;
   align-items: center;
@@ -10835,5 +10845,4 @@ legend {
 .footer .fa-paw {
   color: #f3969a;
 }
-
 
