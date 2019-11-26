@@ -1,1 +1,0 @@
-<h1>Bienvenue sur la page du gossip n° <%= @item.id %></h1>
