@@ -10814,6 +10814,9 @@ legend {
   padding: 0px 50px;
   color: antiquewhite;
   opacity: 0.9;
+  bottom: 0; 
+	left: 0px; right: 0px;
+	position: absolute;
 }
 .footer-links {
   display: flex;
@@ -10833,6 +10836,4 @@ legend {
   color: #f3969a;
 }
 
-.footer {position:absolute ;
-	bottom: 0; 
-	left: 0; right: 0}
+
