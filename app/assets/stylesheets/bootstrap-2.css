@@ -5448,6 +5448,18 @@ a.badge-dark:focus, a.badge-dark.focus {
   border-radius: 0;
 }
 
+
+.jumbotron2 {
+	background-image: url("cat.jpg");
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+	padding: 2rem 1rem;
+  margin-bottom: 2rem;
+	
+	
+}
+
 .alert {
   position: relative;
   padding: 0.75rem 1.25rem;
