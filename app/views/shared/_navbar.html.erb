@@ -6,20 +6,21 @@
 
   <div class="collapse navbar-collapse" id="navbarColor01">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"> Choisi ta photo <span class="sr-only">(current)</span></a>
+      
+      <li class="nav-item">
+        <%= link_to "Les chatons du mois", chatons_path, class:"nav-link" %>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">En savoir plus sur nous</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <%= link_to "Contact", contact_index_path, class:"nav-link" %>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <% if current_user %>
-        <button class="btn btn-link my-2 my-sm-0" type="submit"><%= link_to "Se deconnecter", destroy_user_session_path, method: :delete %></button>
-      <% else %>
+        
+			<button class="btn btn-link my-2 my-sm-0" type="submit"><%= link_to "Mon profil", user_path(:id => current_user.id), class:"nav-link" %></button>
+				<button class="btn btn-link my-2 my-sm-0" type="submit"><%= link_to "Se déconnecter", destroy_user_session_path, method: :delete %></button>
+
+    		<% else %>
         <button class="btn btn-link my-2 my-sm-0" type="submit"><%= link_to "Se connecter", new_user_session_path%></button>
         <button class="btn btn-link my-2 my-sm-0" type="submit"><%= link_to "S'inscrire", new_user_registration_path%></button>
       <% end %>
