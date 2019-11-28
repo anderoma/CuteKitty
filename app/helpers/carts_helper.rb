@@ -1,4 +1,4 @@
-module ApplicationHelper
+module CartsHelper
   def all_items
     u = current_user
     cu = Cart.find_by(user_id: u.id)
