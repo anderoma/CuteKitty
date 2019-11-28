@@ -25,14 +25,14 @@ class CartsController < ApplicationController
       if JoinCartItem.exists?(item_id: @item.id, cart_id: @cart.id) == false
         JoinCartItem.create(cart_id: @cart.id, item_id: @item.id)
 
-        flash[:succes] = "Ajouté au panier"
+        flash[:success] = "Ajouté au panier"
       #  redirect_to(item_path(@item))
             respond_to do |format|
               format.html { redirect_to root_path }
               format.js { }
             end
       else
-        flash[:alerte] = "Déjà dans le panier"
+        flash[:alerte] = "L'item est déjà dans le panier"
         redirect_to(item_path(@item))
       end
 
