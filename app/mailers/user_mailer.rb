@@ -10,4 +10,21 @@ class UserMailer < ApplicationMailer
     mail(to: @user.email, subject: 'Bienvenue chez nous !') 
   end
 	
+	
+  def after_order(confirm)
+
+
+    @order = confirm.order
+    @user = confirm.order.user
+    @user = User.find(@user.id)
+  	mail(to: @user.email, subject: 'Validation de votre commande')
+  	
+  end
+	
+	def admin_alert(confirm)
+  	@order = confirm.order
+  	@user = confirm.order.user
+  	mail(to: "cutekitty@yopmail.com", subject: 'Une commande a été enregistrée')
+  end
+	
 end
